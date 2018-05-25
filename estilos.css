@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	text-align: center;
+}
+
+#base {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#base #encabezado {
+	background-color: #9F9;
+	height: 200px;
+	width: 1000px;
+}
+#base #encabezado #Logo {
+	background-color: #999;
+	float: left;
+	height: 200px;
+	width: 300px;
+	background-image: url(IMG/LOGO.jpg);
+}
+#base #encabezado #Baner {
+	background-color: #0CF;
+	float: right;
+	height: 200px;
+	width: 700px;
+	background-image: url(IMG/banner.jpg);
+}
+#base #menuHorizontal {
+	background-color: #96F;
+	display: flex;
+	height: 30px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 1000px;
+}
+
+#base #menuHorizontal .texto{
+	display: inline-block;
+	height: 30px;
+	background: #FFC213;
+	width: 100%;
+	line-height: 30px;
+	font-size: 1.2em;
+}
+
+#base #menuHorizontal .texto.somos{
+}
+
+#base #menuHorizontal .texto.garzas{
+}
+
+#base #menuHorizontal li{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	background: pink;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+
+#base #menuHorizontal li.enlace{
+	background: #830000;
+}
+
+#base #menuHorizontal li.enlace:hover{
+	background: #E41616;
+}
+
+#base #menuHorizontal li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#base #contenedor {
+	width: 1000px;
+}
+#base #contenedor #Menu_vertical {
+	background-color: #F60;
+	float: left;
+	height: 650px;
+	width: 200px;
+	position: relative;
+}
+
+#base #contenedor #Menu_vertical .relleno-izquierdo{
+	background-image: url(IMG/menu_vertical.jpg);
+	background-origin: top;
+	position: absolute;
+	top: 140px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#base #contenedor #Menu_vertical a:hover{
+	color: white;
+}
+
+#base #contenedor #cuerpo {
+	background-color: #FAFAFA;
+	float: right;
+	min-height: 650px;
+	width: 800px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#pie_pagina {
+	height: 30px;
+	padding: .1em 0;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pie_pagina .contenedor{
+	background-color: #FC0;
+}
+
+#pie_pagina .elemento{
+	display: inline-block;
+	width: 19.5%;
+}
+
+#pie_pagina .siglas{
+	font-size: 1.7em;
+	color: #393939;
+}
+
+.contenedor-alumnado{
+	margin-top: 2em;
+}
+
+.contenedor-alumnado .carta{
+	width: 33%;
+	display: inline-block;
+	margin-bottom: 2.5em;
+}
+
+.contenedor-alumnado .carta img{
+	border-radius: .15em;
+	height: 200px;
+	object-fit: cover;
+	width: 200px;
+}
+
+.contenedor-horario{
+
+}
+
+.contenedor-horario table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.contenedor-horario table th{
+	background-color: #7D488C;
+	color: white;
+}
+
+.contenedor-horario table tr:nth-child(odd){
+	background-color: #EAD2F1;
+}
+
+.contenedor-horario table td{
+	border: none;
+	padding: .2em;
+}
+
+.contenedor-actividadi {
+	
+}
+
+.contenedor-actividadi .enlace-principal{
+	display: inline-block;
+	width: 49%;
+}
+
+.contenedor-actividadi p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 2em ;
+	margin-right: 2em ;
+}
+
+.contenedor-inicio img{
+	height: 300px;
+	width: 90%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px #2B2B2B;
+	object-fit: cover;
+	margin-top: 2em;
+}
